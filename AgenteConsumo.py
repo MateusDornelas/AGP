@@ -28,7 +28,7 @@ except Exception as e:
 
 # --- Título, Imagem e Descrição ---
 st.title("🤖 IA - Análise Consumo")
-# st.image("AGP.jpg", width=300) # Removido para execução sem a imagem local
+st.image("AGP.jpg", width=300) 
 st.write("Faça o upload de um arquivo Excel para visualizar os dados e conversar com um assistente de IA.")
 
 # --- Nomes das Colunas Esperadas ---
