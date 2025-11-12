@@ -16,7 +16,7 @@ st.set_page_config(
 # (Seu código da API permanece o mesmo)
 try:
     # Lembre-se de colocar sua chave de API válida aqui
-    GOOGLE_API_KEY = "SUA_CHAVE_API_AQUI" # Substitua pela sua chave
+    GOOGLE_API_KEY = "AIzaSyAqd22bTugBXapQ61fJZdgKVujHVoWpZiA" # Substitua pela sua chave
     genai.configure(api_key=GOOGLE_API_KEY)
     model = genai.GenerativeModel('models/gemini-flash-latest')
     gemini_configurado = True
